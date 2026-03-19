@@ -51,3 +51,4 @@ if st.button("Predict"):
     st.write(f"Parents/Children: {parch}")
     st.write(f"Fare: {fare}")
     st.write(f"Embarked: {embarked}")
+port = int(os.environ.get("PORT", 8501))
